@@ -80,7 +80,7 @@ header {
 
 }
 
-.logo.img {
+.logo-img {
     Width: 31.17%;
     Height: 32%;
     margin-right: 10px;
@@ -89,7 +89,7 @@ header {
     margin-bottom: 24px;
 }
 
-.logo text {
+.logo-text {
     font-size: 24px;
     color: #0a0404;
     text-decoration: none;
@@ -146,8 +146,8 @@ header {
     line-height: 24px;
     color: #FFFFFF;
     background: #FF9900;
+}
 
-
-
-
+.header-image {
+    display: flex;
 }
