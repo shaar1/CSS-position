@@ -110,8 +110,8 @@ header {
     letter-spacing: 0px;
     text-align: left;
     margin-top: 113px;
-    margin-left: 145px;
     text-align: left;
+    width: 518px;
 }
 
 .text-1 {
@@ -133,6 +133,14 @@ header {
     color: #544837;
 }
 
+.section-först {
+    display: flex;
+    justify-content: space-between;
+        margin-left: 145px;
+
+
+}
+
 .button-1 {
     border-radius: 4px;
     height: 53px;
@@ -148,6 +156,7 @@ header {
     background: #FF9900;
 }
 
-.header-image {
-    display: flex;
+.image1 {
+    width: 605px;
+    height: 496px;
 }
