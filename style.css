@@ -1,26 +1,33 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin:0 145px;
 
 }
 
+a:visited {
+    color: black;
+}
+
 header {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
+    min-width: 1126px;
     padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: space-between;
-    align-items: center;
+
     box-sizing: border-box;
     font-weight: 400;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 
-
-.nav {
+.nav-list {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
@@ -29,23 +36,22 @@ header {
     color: black;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
-
+    margin-left: 150px;
 }
 
-.nav>li {
+.nav-list>li {
     margin-left: 15px;
 }
 
-.nav-btn1 {
+.btn-sign-in {
     color: #173A56;
     height: 46px;
     width: 102px;
     left: 0px;
     top: 15px;
-    border-radius: 0px;
+    border-radius: 4px;
     background-color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
@@ -53,15 +59,15 @@ header {
     line-height: 24px;
     letter-spacing: 0px;
     text-align: center;
+    border: 1px solid #BCD0E5;
+    margin: 5px;
 }
 
-.nav-btn2 {
+.btn-sign-up {
     color: #FFFFFF;
     background: #FF9900;
     height: 46px;
     width: 110px;
-    left: 0px;
-    top: 0px;
     border-radius: 4px;
     font-size: 16px;
     font-style: normal;
@@ -69,6 +75,9 @@ header {
     line-height: 24px;
     letter-spacing: 0px;
     text-align: center;
+    border: 1px solid #BCD0E5;
+    margin: 5px;
+
 }
 
 
@@ -81,31 +90,21 @@ header {
 }
 
 .logo-img {
-    Width: 31.17%;
-    Height: 32%;
-    margin-right: 10px;
-    margin-top: 22px;
-    margin-left: 143px;
-    margin-bottom: 24px;
+    Width: 31.17px;
+    Height: 32px;
 }
 
 .logo-text {
     font-size: 24px;
     color: #0a0404;
     text-decoration: none;
-    border: 1px solid;
-    height: 28px;
-    width: 143px;
-    margin-top: 25px;
-    margin-right: 320px;
-    margin-bottom: 24px;
-    margin-left: 0px;
-
-
-
+    margin-left: 5px;
 }
-
-.page {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-info {
     font-family: Poppins;
     letter-spacing: 0px;
     text-align: left;
@@ -114,7 +113,7 @@ header {
     width: 518px;
 }
 
-.text-1 {
+.main-title {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -123,7 +122,7 @@ header {
     color: #2F281E;
 }
 
-.text-2 {
+.main-info {
 
     font-family: Poppins;
     font-style: normal;
@@ -133,15 +132,9 @@ header {
     color: #544837;
 }
 
-.section-först {
-    display: flex;
-    justify-content: space-between;
-        margin-left: 145px;
 
 
-}
-
-.button-1 {
+.button-start {
     border-radius: 4px;
     height: 53px;
     width: 175px;
@@ -155,8 +148,21 @@ header {
     color: #FFFFFF;
     background: #FF9900;
 }
+.btn-vid {
+    width: 161px;
+    height: 23px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    color: #FF9900;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+}
 
-.image1 {
-    width: 605px;
-    height: 496px;
+.header-img {
+    max-width: 605px;
+    width: 100%;
+    margin-right: 3px;
 }
