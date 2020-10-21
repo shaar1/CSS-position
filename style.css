@@ -1,11 +1,10 @@
 body {
-    font-family: 'poppins';
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin:0 145px;
+    margin: 0 145px;
 
 }
 
@@ -16,7 +15,6 @@ a:visited {
 header {
     min-width: 1126px;
     padding-top: 20px;
-
     box-sizing: border-box;
     font-weight: 400;
 }
@@ -77,9 +75,7 @@ nav {
     text-align: center;
     border: 1px solid #BCD0E5;
     margin: 5px;
-
 }
-
 
 
 .logo {
@@ -100,10 +96,12 @@ nav {
     text-decoration: none;
     margin-left: 5px;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
 }
+
 .header-info {
     font-family: Poppins;
     letter-spacing: 0px;
@@ -123,7 +121,6 @@ nav {
 }
 
 .main-info {
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -148,6 +145,7 @@ nav {
     color: #FFFFFF;
     background: #FF9900;
 }
+
 .btn-vid {
     width: 161px;
     height: 23px;
@@ -165,4 +163,120 @@ nav {
     max-width: 605px;
     width: 100%;
     margin-right: 3px;
+}
+
+.main-title-2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+    Width: 539.73px;
+    Height: 108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-self: start;
+}
+
+.card-title-size {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.card-info-size {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    height: 75px;
+    width: 240px;
+    top: 44px;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #FF9900;
+    border-radius: 4px;
+    height: 53px;
+    width: 175px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.design-container {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 574px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.design-info {
+    max-width: 486px;
+    width: 100%;
+    min-height: 531px;
+}
+
+.design-img {
+    max-width: 540px;
+    width: 100%;
+    margin-left: 3px;
+}
+
+.design-effort {
+    max-width: 186px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: #544837;
+}
+
+.design-title {
+    max-width: 385px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 22px;
+    color: #2F281E;
+}
+
+.design-txt {
+    max-width: 486px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    color: #544837;
+}
+
+.design-small-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2F281E;
+    line-height: 26px;
+    margin-bottom: 12px;
 }
