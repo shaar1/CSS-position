@@ -22,7 +22,6 @@ nav {
     justify-content: space-between;
 }
 
-
 .nav-list {
     list-style-type: none;
     display: flex;
@@ -74,7 +73,6 @@ nav {
     border: 1px solid #BCD0E5;
     margin: 5px;
 }
-
 
 .logo {
     display: flex;
